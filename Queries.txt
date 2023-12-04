@@ -1,0 +1,43 @@
+
+CREATE TABLE `eventdb`.`event_details` (
+  `event_id` INT NOT NULL AUTO_INCREMENT,
+  `event_name` VARCHAR(100) NULL,
+  `event_description` VARCHAR(500) NULL,
+  `event_date` DATE NULL,
+  `event_time` TIME NULL,
+  `event_venue` VARCHAR(100) NULL,
+  `event_guests` VARCHAR(1000) NULL,
+  `event_organizer` VARCHAR(100) NULL,
+  PRIMARY KEY (`event_id`)
+);
+
+
+INSERT INTO event_details 
+VALUES (0, 'Summer Sounds Music Festival', 'Join us for a day of live music, food, and fun in the sun! This music festival features a lineup of top artists from various genres. You can enjoy everything from rock to pop to hip-hop.', '2023-07-15', '12:00:00', 'Greenfield Park, 123 Main Street, Anytown', 'Emily Anderson','The Groove Masters');
+
+INSERT INTO event_details
+VALUES (0, 'Stars of Hope Charity Gala', 'An elegant evening of charity and philanthropy. This gala raises funds for local community initiatives and features a silent auction, gourmet dinner, and live entertainment.', '2023-11-03', '18:30:00', 'Grand Ballroom at the Plaza Hotel, 456 Elegant Avenue, Uptown City', 'John Smith','Hope Foundation for Community Change');
+
+INSERT INTO event_details
+VALUES (0, 'FutureTech Summit 2023', 'Explore the latest innovations in technology, attend workshops, and network with industry experts. Topics include AI, blockchain, cybersecurity, and more.', '2023-09-20', '08:00:00', 'Innovation Center, 789 Tech Boulevard, Tech City', 'Sarah Johnson','Tech Visionaries Inc.');
+
+INSERT INTO event_details
+VALUES (0, 'Eco-Conscious Expo', 'Discover sustainable living and eco-friendly products at this expo. Learn from experts, enjoy eco-cuisine, and participate in workshops on recycling, renewable energy, and conservation.', '2023-08-10', '10:00:00', 'Green Living Center, 321 Earth Street, Ecoville', 'Alicia Roberts', 'EcoSolutions Now');
+
+INSERT INTO event_details
+VALUES (0, 'Artisan Food Fair', 'Savor gourmet delights at the Artisan Food Fair. Local chefs and artisans showcase their culinary creations. Enjoy food tastings, cooking demos, and live music.', '2023-06-25', '11:30:00', 'Culinary Square, 789 Gourmet Avenue, Foodsville', 'David Martinez', 'Foodie Haven Inc.');
+
+INSERT INTO event_details
+VALUES (0, 'Health & Wellness Symposium', 'Prioritize your well-being at this symposium. Explore holistic health practices, yoga sessions, and expert talks on mental and physical wellness.', '2023-10-05', '09:00:00', 'Wellness Center, 567 Serenity Lane, Healthville', 'Linda Wilson', 'WellLife Solutions');
+
+INSERT INTO event_details
+VALUES (0, 'Vintage Car Show', 'Step back in time at the Vintage Car Show. Admire classic automobiles from different eras, enjoy car parades, and chat with collectors and enthusiasts.', '2023-07-30', '14:00:00', 'Classic Car Plaza, 456 Nostalgia Street, Retroville', 'James Cooper', 'Auto Heritage Society');
+
+INSERT INTO event_details
+VALUES (0, 'Science & Innovation Conference', 'Delve into cutting-edge science and innovation. Attend keynote speeches, panel discussions, and explore the latest breakthroughs in various fields.', '2023-09-15', '08:30:00', 'Innovation Center, 789 Science Avenue, Innovatopolis', 'Dr. Maria Rodriguez', 'InnovateTech Research Institute');
+
+INSERT INTO event_details
+VALUES (0, 'International Film Festival', 'Celebrate the art of cinema at the International Film Festival. Watch a diverse selection of films, meet filmmakers, and engage in film discussions and workshops.', '2023-11-18', '12:00:00', 'Cinephile Theater, 123 Film Street, Cinemacity', 'Daniel Foster', 'Global Cinematics Association');
+
+
+select * from event_details;

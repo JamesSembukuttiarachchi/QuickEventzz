@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+  <servlet>
+    <description></description>
+    <display-name>createEventServlet</display-name>
+    <servlet-name>createEventServlet</servlet-name>
+    <servlet-class>com.event/createEventServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>createEventServlet</servlet-name>
+    <url-pattern>/createEventServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>EventFormServlet</display-name>
+    <servlet-name>EventFormServlet</servlet-name>
+    <servlet-class>com.event/EventFormServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EventFormServlet</servlet-name>
+    <url-pattern>/EventFormServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>UpdateEventServlet</display-name>
+    <servlet-name>UpdateEventServlet</servlet-name>
+    <servlet-class>com.event.UpdateEventServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateEventServlet</servlet-name>
+    <url-pattern>/UpdateEventServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>DeleteEventServlet</display-name>
+    <servlet-name>DeleteEventServlet</servlet-name>
+    <servlet-class>com.event.DeleteEventServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteEventServlet</servlet-name>
+    <url-pattern>/DeleteEventServlet</url-pattern>
+  </servlet-mapping>
+</web-app>

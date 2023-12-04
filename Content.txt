@@ -1,0 +1,9 @@
+Student ID no: IT22122414
+Name: Sembukuttiarachchi J. S.
+Batch 12.1
+Assigment Group No: MLB-WD-G9_Online Event Planning System
+
+This folder contains the src codes of the CRUD operations related to the Event. 
+Creating a  new event, then updating the event details of the created event, the retrieving the event details on the Page. And finally deleting the Event.
+
+Queries for the database tables are also attached. I have used Tom Cat Server Version 10.
